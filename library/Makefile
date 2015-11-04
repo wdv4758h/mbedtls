@@ -31,9 +31,9 @@ LOCAL_CFLAGS += -fPIC -fpic
 endif
 endif
 
-SOEXT_TLS=so.10
+SOEXT_TLS=so.0
 SOEXT_X509=so.0
-SOEXT_CRYPTO=so.0
+SOEXT_CRYPTO=so.10
 
 DLEXT=so
 # OSX shared library extension:
